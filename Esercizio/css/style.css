@@ -47,10 +47,9 @@ img {
 
 .header {
     background-image: url(../images/banner.jpg);
-    border: 10%;
-     
+    background-position: center;
     background-size: cover;
-    padding: 2rem;
+    padding: 15% 7%;
     
 }
 
