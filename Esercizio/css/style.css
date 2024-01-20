@@ -7,21 +7,23 @@ body{
     box-sizing: border-box;
     /* margin: auto; */
     color: #393d41 ;
+    margin: 0;
 }
 
 img {
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* HEADER */
 
-header {
+.header {
     background-image: url(../images/banner.jpg);
     border: 2rem;
-    text-align: center;
+    
     background-size: cover;
     padding: 2rem;
+    background-color: black;
     
 }
 
@@ -29,8 +31,8 @@ header {
     height: auto;
     width: auto;
     padding: 1.5em 2em;
-    /* margin: 1.5em; */
     background-color: black;
+    
 }
 
 h1 {
@@ -53,13 +55,13 @@ button {
 
 /* MAIN */
 
-section {
-    padding: 1.5em 2em;
+.nav1 {
+    padding: 20% 10%;
 }
 
 .Rounded {
     border-radius: 50%;
-    width: 300px;
+    width: 90%;
 }
     
 h4 {
@@ -69,7 +71,7 @@ h4 {
 } 
 
 div {
-    margin: 1em;
+    
     border: #dee1e3;
     border-radius: 1%;
     border-style: solid;
@@ -78,6 +80,7 @@ div {
 h3 {
     font-size: 35px;
     font-family: 'montserrat', bold;
+    border: #dee1e3;
 }
 
 .rednav {
@@ -111,5 +114,6 @@ h2 {
 
 hr {
     width: 50%;
+    border: 1px solid;
 }
 /* FINE FOOTER */
