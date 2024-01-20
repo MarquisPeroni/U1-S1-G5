@@ -10,6 +10,34 @@ body{
     margin: 0;
 }
 
+h1 {
+    font-family: 'montserrat';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #25a2c3 ;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'montserrat', bold;
+    padding-bottom: 5%;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'montserrat', bold;
+    border: #dee1e3;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight:bold ;
+    color: #25a2c3 ;
+    padding: 3% 0;
+} 
+
+
 img {
     height: auto;
     max-width: 100%;
@@ -19,35 +47,36 @@ img {
 
 .header {
     background-image: url(../images/banner.jpg);
-    border: 2rem;
-    
+    border: 10%;
+     
     background-size: cover;
     padding: 2rem;
-    background-color: black;
     
+}
+
+.header p{
+    padding: 7% 0;
 }
 
 .logo {
     height: auto;
-    width: auto;
-    padding: 1.5em 2em;
+    padding: 10% 0;
     background-color: black;
     
 }
 
-h1 {
-    font-family: 'montserrat';
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #04adad;
+.logo img{
+    max-width: 100%;
+    width: 40%;
 }
 
 button {
-    background-color: orangered;
+    background-color: #f04c2f ;
     color: white;
-    padding: 15px;
+    padding: 4% 9%;
     border: 0;
-    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'montserrat', bold;
     border-radius: 5%;  
     cursor: pointer;
 }
@@ -56,7 +85,11 @@ button {
 /* MAIN */
 
 .nav1 {
-    padding: 20% 10%;
+    padding: 10%;
+}
+
+.nav1 div{
+        padding: 5% 0;
 }
 
 .Rounded {
@@ -64,33 +97,36 @@ button {
     width: 90%;
 }
     
-h4 {
-    font-size: 1.4rem;
-    font-weight:bold ;
-    color: #04adad;
-} 
+.rednav {
+    background-color: #e22d0e;
+    color: white;
+    padding: 15% 5% 10% 5%;
+}
 
-div {
-    
+.rednav span {
+    font-size: 0.9rem;
+}
+
+.italic {
+    font-style: italic;
+    padding: 10% 0;
+    font-size: 1.2rem;
+}
+
+.cards {
+    padding: 7%;
+}
+
+.cards div{
+    margin: 10% 0 10% 0;
     border: #dee1e3;
     border-radius: 1%;
     border-style: solid;
 }
 
-h3 {
-    font-size: 35px;
-    font-family: 'montserrat', bold;
-    border: #dee1e3;
-}
-
-.rednav {
-    background-color: red;
-    color: white;
-    padding: 1.5em 2em;
-}
-
-.oblique {
-    font-style: oblique;
+.cards p {
+    padding: 0 5% 10% 5%;
+    font-size: 1.2rem;
 }
 
 /* FINE MAIN */
@@ -107,13 +143,15 @@ footer a{
     color: #c8e7f0  ;
 }
 
-h2 {
-    font-size: 30px;
-    font-family: 'montserrat', bold;
+footer div {
+    border-top: 1px solid;
+    border-color: white;
+    margin: 10% 20%;
+    
 }
 
-hr {
-    width: 50%;
-    border: 1px solid;
+footer span {
+    color: #c8e7f0 ;
+    font-size: 1.1rem;
 }
 /* FINE FOOTER */
