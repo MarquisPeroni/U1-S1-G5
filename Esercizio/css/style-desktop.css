@@ -1,0 +1,205 @@
+/* Your styles here */
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    /* margin: auto; */
+    color: #393d41 ;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'montserrat';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #25a2c3 ;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'montserrat', bold;
+    /* padding-bottom: 5%; */
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'montserrat', bold;
+    border: #dee1e3;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight:bold ;
+    color: #25a2c3 ;
+    /* padding: 3% 0; */
+} 
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15% 7%;
+    
+}
+
+.header p{
+    padding: 1% 2% 2% 2%;
+}
+
+.logo {
+    height: auto;
+    padding: 1% 2% 1% 2%;
+    background-color: black;
+    text-align: left;
+    
+}
+
+.logo img{
+    max-width: 100%;
+    width: 9%;
+}
+
+button {
+    background-color: #f04c2f ;
+    color: white;
+    padding: 1.5% 4%;
+    border: 0;
+    font-size: 1rem;
+    font-family: 'montserrat', bold;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+/* FINE HEADER */
+
+/* MAIN */
+
+.nav {
+    /* padding: 10%; */
+    text-align: center;
+}
+
+.inlineblock {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.photo {
+    width: 40%;
+    margin: 5%;
+}
+
+.text{
+    text-align: left;
+    width: 40%;
+}
+
+.text h4 {
+    margin : 0;
+    padding: 1%;
+}
+
+.text p {
+    margin : 0;
+    padding: 1%;
+}
+
+
+.nav div{
+        /* padding: 5% 0; */
+}
+
+.Rounded {
+    border-radius: 50%;
+    width: 100%;
+}
+    
+.rednav {
+    background-color: #e22d0e;
+    color: white;
+    padding: 5%; 
+}
+
+.rednav h3 {
+    margin: 0%;
+}
+
+.rednav p {
+    margin: 0%; 
+    padding: 1%;
+}
+
+.rednav div {
+    line-height: 1.5rem;
+    padding: 1%;
+}
+.rednav span {
+    font-size: 0.9rem;
+    margin: 0%;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.cards {
+    padding: 7%;
+}
+
+.cards div{
+    margin: 10% 0 10% 0;
+    border: #dee1e3;
+    border-radius: 1%;
+    border-style: solid;
+}
+
+.cards p {
+    padding: 0 5% 10% 5%;
+    font-size: 1.2rem;
+}
+
+/* FINE MAIN */
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: #25a2c3;
+    color: white;
+    /* padding: 3em 2em; */
+    text-align: center;
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+footer div {
+    vertical-align: left;
+    ;
+}
+
+/* footer div {
+    border-top: 1px solid;
+    border-color: white;
+    margin: 10% 20%;
+    
+}  */
+
+footer span {
+    color: #c8e7f0 ;
+    font-size: 1.1rem;
+}
+/* FINE FOOTER */
